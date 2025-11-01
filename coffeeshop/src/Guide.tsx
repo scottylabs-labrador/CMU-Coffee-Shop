@@ -4,17 +4,21 @@ function Guide({ toMaps }: { toMaps: () => void }) {
     return (
         <>
 
-        <div onClick={toMaps}><img src={coffeecup} className="m-3 tround" alt="coffeecup" /></div>
-        
-        <div className="container-fluid text-center pt-5 mb-5 display-3">
-        Guide:
-      </div>
+        <div className="row">
+          <div className="col-10"></div>
+          <div className="col-2">
+            <div className= "container-fluid" onClick={toMaps}><img src={coffeecup} className="m-3 mb-5 tround" alt="coffeecup" /></div>
+          </div>
+        </div>
+
+        <div className="container-fluid display-3"><p>Guide</p></div>
 
       <div className="row">
-        <div className="col-3"></div>
+        <div className="col-2"></div>
 
-        <div className="col-6 container sround bg-light py-5">
+        <div className="col-8 container sround py-5">
           <div className="h3">Occupancy</div>
+
           <div className="row">
           <div className="col-1"></div>
           <div className="col-10">
@@ -63,7 +67,7 @@ function Guide({ toMaps }: { toMaps: () => void }) {
           </div>
         </div>
 
-        <div className="col-3"></div>
+        <div className="col-2"></div>
       </div>
         
         </>

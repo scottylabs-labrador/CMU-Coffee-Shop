@@ -4,8 +4,7 @@ function Maps() {
     return (
         <>
         
-        <div><img src={coffeecup} className="m-3 tround" alt="coffeecup" /></div>
-        <p>Hi</p>
+        <div><img src={coffeecup} className="m-3 tlround" alt="coffeecup" /></div>
 
         </>
     )

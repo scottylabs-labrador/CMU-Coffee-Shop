@@ -18,15 +18,67 @@
   border-radius: 100%;
 }
 
-.ebround {
+.tround {
+  width: 30%;
+  height: auto;
+  border-radius: 100%;
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .bround {
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+  }
+
+  .ebround {
   width: 60%;
+  height: auto;
+  border-radius: 100%;
+  }
+
+  .tlround {
+  width: 3%;
+  height: auto;
+  border-radius: 100%;
+  float: left;
+  }
+
+  .tround {
+  width: 30%;
+  height: auto;
+  border-radius: 100%;
+  float: right;
+  }
+}
+
+@media (max-width: 768px) {
+.bround {
+  width: 100%;
   height: auto;
   border-radius: 100%;
 }
 
+.ebround {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.tlround {
+  width: 15%;
+  height: auto;
+  border-radius: 100%;
+  float: left;
+}
+
 .tround {
-  width: 3%;
+  width: 60%;
   height: auto;
   border-radius: 100%;
   float: right;
+}
+
+
 }
