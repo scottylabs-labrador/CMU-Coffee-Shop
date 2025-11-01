@@ -2,8 +2,24 @@
   text-align: center;
 }
 
+.sround {
+  border-radius: 10%;
+}
+
 .round {
   width: 20%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.bround {
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.ebround {
+  width: 60%;
   height: auto;
   border-radius: 100%;
 }
