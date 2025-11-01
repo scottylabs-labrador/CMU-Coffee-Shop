@@ -1,6 +1,6 @@
 import coffeecup from './Assets/placeholder.png';
 
-function Home() {
+function Home({ toGuide }: { toGuide: () => void }) {
     return (
         <>
 
@@ -13,7 +13,7 @@ function Home() {
       <div className="row mt-5">
       <div className="col-3"></div>
       <div className="col-6">
-        <div className="alert alert-secondary h3">Find a CMU cafe to study in!</div>
+        <div className="alert alert-secondary h3" onClick={toGuide} >Find a CMU cafe to study in!</div>
       </div>
       <div className="col-3"></div>
     </div>
