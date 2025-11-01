@@ -1,8 +1,10 @@
 import coffeecup from './Assets/placeholder.png';
 
-function Guide() {
+function Guide({ toMaps }: { toMaps: () => void }) {
     return (
         <>
+
+        <div onClick={toMaps}><img src={coffeecup} className="m-3 tround" alt="coffeecup" /></div>
         
         <div className="container-fluid text-center pt-5 mb-5 display-3">
         Guide:

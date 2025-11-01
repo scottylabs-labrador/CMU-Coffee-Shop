@@ -23,3 +23,10 @@
   height: auto;
   border-radius: 100%;
 }
+
+.tround {
+  width: 3%;
+  height: auto;
+  border-radius: 100%;
+  float: right;
+}
