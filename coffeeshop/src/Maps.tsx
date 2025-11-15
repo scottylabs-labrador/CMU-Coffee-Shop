@@ -1,4 +1,5 @@
 import coffeecup from './Assets/placeholder.png';
+const apiKey = process.env.MAP_KIT_KEY;
 
 function Maps() {
     return (
