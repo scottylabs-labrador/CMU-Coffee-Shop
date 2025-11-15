@@ -2,37 +2,83 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sround {
+  border-radius: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.round {
+  width: 20%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.bround {
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.tround {
+  width: 30%;
+  height: auto;
+  border-radius: 100%;
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .bround {
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+  }
+
+  .ebround {
+  width: 60%;
+  height: auto;
+  border-radius: 100%;
+  }
+
+  .tlround {
+  width: 3%;
+  height: auto;
+  border-radius: 100%;
+  float: left;
+  }
+
+  .tround {
+  width: 30%;
+  height: auto;
+  border-radius: 100%;
+  float: right;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 768px) {
+.bround {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.ebround {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tlround {
+  width: 15%;
+  height: auto;
+  border-radius: 100%;
+  float: left;
+}
+
+.tround {
+  width: 60%;
+  height: auto;
+  border-radius: 100%;
+  float: right;
+}
+
+
 }
