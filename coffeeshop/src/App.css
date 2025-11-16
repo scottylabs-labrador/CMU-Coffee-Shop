@@ -25,6 +25,11 @@
   float: right;
 }
 
+.Map {
+  width: 100%;
+  height: 100vh;
+}
+
 @media (min-width: 768px) {
   .bround {
   width: 50%;

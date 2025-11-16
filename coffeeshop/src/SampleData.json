@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "A",
+    "Coordinates": {
+      "lat": 40.44260716039899,
+      "lng": -79.93995513782087
+    },
+    "Occupancy": 1,
+    "Noise Level": 4
+  },
+  {
+    "Name": "B",
+    "Coordinates": {
+      "lat": 40.44161664158368,
+      "lng": -79.94285872206078
+    },
+    "Occupancy": 5,
+    "Noise Level": 2
+  }
+]
