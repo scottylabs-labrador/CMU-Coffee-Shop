@@ -1,4 +1,13 @@
 import coffeecup from './Assets/placeholder.png';
+import onebean from './Assets/One Bean.svg';
+import twobean from './Assets/Three Beans.svg';
+import threebean from './Assets/Many Beans.svg';
+import zeros from './Assets/Empty cup.svg';
+import ones from './Assets/Cup Full 1.svg';
+import twos from './Assets/Cup Full 2.svg';
+import threes from './Assets/Cup Full 3.svg';
+import x from './Assets/X Icon.svg';
+
 
 function Guide({ toMaps }: { toMaps: () => void }) {
     return (
@@ -7,7 +16,7 @@ function Guide({ toMaps }: { toMaps: () => void }) {
         <div className="row">
           <div className="col-10"></div>
           <div className="col-2">
-            <div className= "container-fluid" onClick={toMaps}><img src={coffeecup} className="m-3 mb-5 tround" alt="coffeecup" /></div>
+            <div className= "container-fluid" onClick={toMaps}><img src={x} className="x m-3" alt="coffeecup" /></div>
           </div>
         </div>
 
@@ -16,7 +25,7 @@ function Guide({ toMaps }: { toMaps: () => void }) {
       <div className="row">
         <div className="col-2"></div>
 
-        <div className="col-8 container sround py-5">
+        <div className="col-8 container py-5">
           <div className="h3">Occupancy</div>
 
           <div className="row">
@@ -24,15 +33,15 @@ function Guide({ toMaps }: { toMaps: () => void }) {
           <div className="col-10">
             <div className="row">
               <div className="col-4">
-                <img src={coffeecup} className="mt-5 bround" alt="coffeecup" />
+                <img src={onebean} className="mt-5 bean" alt="coffeecup" />
                 <p className="mt-3">Low</p>
               </div>
               <div className="col-4">
-                <img src={coffeecup} className="mt-5 bround" alt="coffeecup" />
+                <img src={twobean} className="mt-5 bean" alt="coffeecup" />
                 <p className="mt-3">Medium</p>
               </div>
               <div className="col-4">
-                <img src={coffeecup} className="mt-5 bround" alt="coffeecup" />
+                <img src={threebean} className="mt-5 bbean" alt="coffeecup" />
                 <p className="mt-3">High</p>
               </div>
             </div>
@@ -46,19 +55,19 @@ function Guide({ toMaps }: { toMaps: () => void }) {
           <div className="col-10">
             <div className="row">
               <div className="col-3">
-                <img src={coffeecup} className="mt-5 ebround" alt="coffeecup" />
+                <img src={zeros} className="mt-5 ss" alt="coffeecup" />
                 <p className="mt-3">Silent</p>
               </div>
               <div className="col-3">
-                <img src={coffeecup} className="mt-5 ebround" alt="coffeecup" />
+                <img src={ones} className="mt-5 ss" alt="coffeecup" />
                 <p className="mt-3">Low</p>
               </div>
               <div className="col-3">
-                <img src={coffeecup} className="mt-5 ebround" alt="coffeecup" />
+                <img src={twos} className="mt-5 ss" alt="coffeecup" />
                 <p className="mt-3">Medium</p>
               </div>
               <div className="col-3">
-                <img src={coffeecup} className="mt-5 ebround" alt="coffeecup" />
+                <img src={threes} className="mt-5 ss" alt="coffeecup" />
                 <p className="mt-3">High</p>
               </div>
             </div>

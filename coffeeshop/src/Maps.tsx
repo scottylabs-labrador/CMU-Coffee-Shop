@@ -2,7 +2,7 @@ import coffeecup from './Assets/placeholder.png';
 import { useMemo, useState, useEffect } from 'react';
 import { Map, Marker, ColorScheme, PointOfInterestCategory } from 'mapkit-react';
 import './App.css';
-const tkn = "token here";
+const tkn = "eyJraWQiOiJUWVdLTjJYOFNVIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiI0WTM5Rk1BODM4IiwiaWF0IjoxNzYzMjQyNTAyLCJleHAiOjE3NjM4ODQ3OTl9.yjiP3_D93HLY5GlqWfPQ2NUuK2ivYSqVeuuaR3N3pqTldkrD__oCr1gqFn3ddsMHb17lGSoY-AjCNK3nUwz0HA";
 
 interface Location {
     Name: string;
@@ -28,6 +28,7 @@ function Maps({ locations }: { locations: Location[] | undefined }) {
   );
 
   return (
+    <>
     <div style={{ width: "100%", height: "100vh" }}>
       <Map
         token={tkn}
@@ -48,8 +49,13 @@ function Maps({ locations }: { locations: Location[] | undefined }) {
             }}
           />
         ))}
-      </Map>
+      </Map>   
     </div>
+
+    <div className="MapDrawer">
+    </div>
+
+    </>
   );
 
 }

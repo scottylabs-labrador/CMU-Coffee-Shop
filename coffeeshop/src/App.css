@@ -2,8 +2,36 @@
   text-align: center;
 }
 
-.sround {
-  border-radius: 10%;
+.fill {
+    width: 100%;
+}
+
+.loci {
+  width: 10%;
+}
+
+.wavecont {
+    position: relative;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.overlap {
+  position: absolute;
+  width: 30%;
+  left: 15%;
+  bottom: 15%;
+}
+
+.asize {
+  width: 5%;
+  position: absolute;
+  right: 10%;
+  bottom: 17%;
 }
 
 .round {
@@ -12,10 +40,24 @@
   border-radius: 100%;
 }
 
+.bean {
+  width: 50%;
+}
+
+.bbean {
+  width: 100%;
+}
+
+.ss {
+  width: 80%;
+}
+.x {
+  width: 30%;
+}
+
 .bround {
   width: 50%;
   height: auto;
-  border-radius: 100%;
 }
 
 .tround {
