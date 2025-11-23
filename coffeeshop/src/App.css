@@ -1,84 +1,116 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-.sround {
-  border-radius: 10%;
+.Home {
+  background-color: #f6eee3;
+  min-height: 100vh;
 }
 
-.round {
-  width: 20%;
-  height: auto;
-  border-radius: 100%;
+.Guide {
+  background-color: #f6eee3;
+  min-height: 100vh;
 }
 
-.bround {
-  width: 50%;
-  height: auto;
-  border-radius: 100%;
-}
-
-.tround {
-  width: 30%;
-  height: auto;
-  border-radius: 100%;
-  float: right;
-}
-
-@media (min-width: 768px) {
-  .bround {
-  width: 50%;
-  height: auto;
-  border-radius: 100%;
-  }
-
-  .ebround {
-  width: 60%;
-  height: auto;
-  border-radius: 100%;
-  }
-
-  .tlround {
-  width: 3%;
-  height: auto;
-  border-radius: 100%;
-  float: left;
-  }
-
-  .tround {
-  width: 30%;
-  height: auto;
-  border-radius: 100%;
-  float: right;
-  }
-}
-
-@media (max-width: 768px) {
-.bround {
+.fill {
   width: 100%;
-  height: auto;
-  border-radius: 100%;
 }
 
-.ebround {
+.loci {
+  width: 10%;
+}
+
+.wavecont {
+  position: relative;
+  background-color: none !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.overlap {
+  position: absolute;
+  width: 30%;
+  left: 15%;
+  bottom: 15%;
+}
+
+.asize {
+  width: 5%;
+  position: absolute;
+  right: 10%;
+  bottom: 17%;
+}
+
+.oi {
+  width: 30%;
+}
+
+.ni {
+  width: 50%;
+}
+
+.MapDrawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100vh;
+  background: #f6eee3;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 20px;
+  box-shadow: -4px 0 15px rgba(0, 0, 0, 0.4);
+  transform: translateX(100%);
+  transition: transform 0.35s ease-out;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.MapDrawer.visible {
+  transform: translateX(0);
+}
+
+.arr {
+  width: 4%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  transform: rotate(180deg);
+}
+
+.bean {
+  width: 50%;
+}
+
+.bbean {
   width: 100%;
-  height: auto;
-  border-radius: 100%;
 }
 
-.tlround {
-  width: 15%;
-  height: auto;
-  border-radius: 100%;
-  float: left;
+.ss {
+  width: 80%;
+}
+.x {
+  width: 30%;
 }
 
-.tround {
-  width: 60%;
+.swave {
+  width: 100%;
+  box-sizing: border-box;
   height: auto;
-  border-radius: 100%;
-  float: right;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
-
+.Map {
+  width: 100%;
+  height: 100vh;
 }
