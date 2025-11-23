@@ -50,23 +50,23 @@
 }
 
 .oi {
-  width: 30%;
+  width: 20%;
 }
 
 .ni {
-  width: 50%;
+  width: 40%;
 }
 
 .MapDrawer {
   position: fixed;
   top: 0;
   right: 0;
-  width: 320px;
+  width: 400px;
   height: 100vh;
   background: #f6eee3;
   color: rgb(0, 0, 0);
   border: none;
-  padding: 20px;
+  padding: 3px;
   box-shadow: -4px 0 15px rgba(0, 0, 0, 0.4);
   transform: translateX(100%);
   transition: transform 0.35s ease-out;

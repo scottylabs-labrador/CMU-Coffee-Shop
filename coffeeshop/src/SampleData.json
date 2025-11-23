@@ -1,20 +1,47 @@
 [
   {
-    "Name": "A",
+    "Name": "La Prima - Wean",
     "Coordinates": {
-      "lat": 40.44260716039899,
-      "lng": -79.93995513782087
-    },
-    "Occupancy": 1,
-    "Noise Level": 4
-  },
-  {
-    "Name": "B",
-    "Coordinates": {
-      "lat": 40.44161664158368,
-      "lng": -79.94285872206078
+      "lat": 40.44277404,
+      "lng": -79.94536253
     },
     "Occupancy": 3,
+    "Noise Level": 3
+  },
+  {
+    "Name": "Skibo Café",
+    "Coordinates": {
+      "lat": 40.44410766,
+      "lng": -79.94227438
+    },
+    "Occupancy": 2,
+    "Noise Level": 2
+  },
+  {
+    "Name": "Hunt Library",
+    "Coordinates": {
+      "lat": 40.44114104,
+      "lng": -79.9437459
+    },
+    "Occupancy": 2,
+    "Noise Level": 1
+  },
+  {
+    "Name": "Sorrells Library",
+    "Coordinates": {
+      "lat": 40.44266013,
+      "lng": -79.94578294
+    },
+    "Occupancy": 3,
+    "Noise Level": 1
+  },
+  {
+    "Name": "Carnegie Library of Pittsburgh",
+    "Coordinates": {
+      "lat": 40.44272955,
+      "lng": -79.95076865
+    },
+    "Occupancy": 1,
     "Noise Level": 1
   }
 ]
