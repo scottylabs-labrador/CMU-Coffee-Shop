@@ -27,7 +27,7 @@ function Card({ Name, Occupancy, Noise }: Cardprops) {
           <img
             src={occimgs[Occupancy - 1]}
             alt="occupancy level"
-            className="oi mt-5"
+            className="oi mt-3"
           />
         </>
       )}
@@ -38,7 +38,7 @@ function Card({ Name, Occupancy, Noise }: Cardprops) {
           <img
             src={noiseimgs[Noise - 1]}
             alt="noise level"
-            className="ni mt-5"
+            className="ni mt-3"
           />
         </>
       )}
